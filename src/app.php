@@ -17,11 +17,11 @@ $app->register(new Silex\Provider\ValidatorServiceProvider());
 
 $app->register(new Silex\Provider\DoctrineServiceProvider, [
     'db.options' => [
+        'host' => '45.76.124.243',
+        'dbname' => 'cabyavzqpa',
+        'user' => 'cabyavzqpa',
+        'password' => '6294UfzwDX',
         'driver' => 'pdo_mysql',
-        'host' => '127.0.0.1:3306',
-        'dbname' => 'book',
-        'user' => 'root',
-        'password' => '',
         'charset' => 'utf8'
     ]
 ]);
